@@ -1,60 +1,68 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Basic Calendar</title>
+<title>Simple Attractive Web Page</title>
 <style>
-  table {
-    border-collapse: collapse;
-    width: 100%;
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
   }
-  th, td {
-    border: 1px solid black;
-    padding: 8px;
+
+  header {
+    background-color: #333;
+    color: #fff;
     text-align: center;
+    padding: 1em;
   }
-  th {
-    background-color: #f2f2f2;
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5em;
+  }
+
+  p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn:hover {
+    background-color: #555;
   }
 </style>
 </head>
 <body>
-  <h1>Basic Calendar</h1>
-  <table>
-    <thead>
-      <tr>
-        <th>Sun</th>
-        <th>Mon</th>
-        <th>Tue</th>
-        <th>Wed</th>
-        <th>Thu</th>
-        <th>Fri</th>
-        <th>Sat</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td>1</td>
-        <td>2</td>
-        <td>3</td>
-      </tr>
-      <tr>
-        <td>4</td>
-        <td>5</td>
-        <td>6</td>
-        <td>7</td>
-        <td>8</td>
-        <td>9</td>
-        <td>10</td>
-      </tr>
-      <!-- Continue adding rows for the rest of the month -->
-    </tbody>
-  </table>
+  <header>
+    <h1>Welcome to Our Website</h1>
+    <p>Your One-Stop Destination for Simple Elegance</p>
+  </header>
+  <div class="container">
+    <h2>About Us</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod felis nec tortor efficitur, vel interdum justo venenatis.</p>
+    <a href="#" class="btn">Learn More</a>
+  </div>
 </body>
 </html>
-
