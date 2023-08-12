@@ -9,7 +9,7 @@ on:
 jobs:
   deploy:
     name: Deploy to EC2 on master branch push
-    runs-on: Amazon Linux-latest
+    runs-on: ${{ fromJSON('["amazon linux-latest", "self-hosted"]')[github.repository == 'github/docs-internal'] }}
 
     steps:
       - name: Checkout the files
